@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/crimson-med/Crimson-ProgressBar/issues"
   },
-  "homepage": "https://github.com/crimson-med/Crimson-ProgressBar#readme"
+  "homepage": "https://github.com/crimson-med/Crimson-ProgressBar#readme",
+  "dependencies": {
+    "colors": "^1.2.1"
+  }
 }
