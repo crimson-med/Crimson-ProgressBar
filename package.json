@@ -1,0 +1,26 @@
+{
+  "name": "crimson-progressbar",
+  "version": "1.0.0",
+  "description": "A simple node stylish progress bar for the console",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crimson-med/Crimson-ProgressBar.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "progress",
+    "progressbar",
+    "console"
+  ],
+  "author": "Mederic Burlet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crimson-med/Crimson-ProgressBar/issues"
+  },
+  "homepage": "https://github.com/crimson-med/Crimson-ProgressBar#readme"
+}
