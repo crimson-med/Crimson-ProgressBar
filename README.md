@@ -17,6 +17,18 @@ A simple node stylish progress bar for the console
  - progressSymbol (one char max)
  - backgroundSymbol (one char max)
 
+# Colors Available
+
+ - black
+ - red
+ - green
+ - yellow
+ - blue
+ - magenta
+ - cyan
+ - white
+ - gray
+ - grey
 
 # Code Example
 
