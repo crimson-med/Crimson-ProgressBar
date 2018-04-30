@@ -4,7 +4,7 @@ A simple node stylish progress bar for the console
 
 # Example
 
-![Example of Progress Bar](./res/progress.gif)
+![Example of Progress Bar](https://github.com/crimson-med/Crimson-ProgressBar/blob/master/res/progress.gif)
 
 # Function Help
 
@@ -39,18 +39,18 @@ const crimsonProgressBar = require("crimson-progressbar");
 crimsonProgressBar.renderProgressBar(50, 100);
 ```
 
-![Example of Progress Bar](./res/progress.gif)
+![Example of Progress Bar](https://github.com/crimson-med/Crimson-ProgressBar/blob/master/res/progress.gif)
 
 ```js
 const crimsonProgressBar = require("crimson-progressbar");
 crimsonProgressBar.renderProgressBar(50, 100, "magenta", "cyan", "|", "|");
 ```
 
-![Example of Progress Bar](./res/progress_style.gif)
+![Example of Progress Bar](https://github.com/crimson-med/Crimson-ProgressBar/blob/master/res/progress_style.gif)
 
 ```js
 const crimsonProgressBar = require("crimson-progressbar");
 crimsonProgressBar.renderProgressBar(50, 100, "red", "grey", "-", "=");
 ```
 
-![Example of Progress Bar](./res/progress_style2.gif)
+![Example of Progress Bar](https://github.com/crimson-med/Crimson-ProgressBar/blob/master/res/progress_style2.gif)
