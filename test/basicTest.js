@@ -5,9 +5,7 @@ describe('sample tests:', function() {
       loop().then(resolve => {
         console.log();
         done();
-
       });
-
   });
 });
 
@@ -23,6 +21,6 @@ function delay(){
 
 async function delayedLog(currentValue, totalValue){
     await delay();
-    await crimsonProgressBar.renderProgressBar(currentValue, totalValue);
+    await crimsonProgressBar.renderProgressBar(currentValue, totalValue, "magenta", "cyan", "|", "|");
     return true;
 }
