@@ -54,3 +54,68 @@ crimsonProgressBar.renderProgressBar(50, 100, "red", "grey", "-", "=");
 ```
 
 ![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/progress_style2.gif)
+
+# Styling Examples
+
+```js
+const crimsonProgressBar = require("crimson-progressbar");
+crimsonProgressBar.renderProgressBar(currentValue, totalValue, "magenta", "cyan", "|", "᎒", false);
+```
+
+![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/style1.gif)
+
+```js
+const crimsonProgressBar = require("crimson-progressbar");
+crimsonProgressBar.renderProgressBar(currentValue, totalValue, "magenta", "cyan", "᎘", "᎗", false);
+```
+
+![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/style2.gif)
+
+```js
+const crimsonProgressBar = require("crimson-progressbar");
+crimsonProgressBar.renderProgressBar(currentValue, totalValue, "magenta", "cyan", "↬", "↫", false);
+```
+
+![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/style3.gif)
+
+```js
+const crimsonProgressBar = require("crimson-progressbar");
+crimsonProgressBar.renderProgressBar(currentValue, totalValue, "magenta", "cyan", "⌻", "⌷", false);
+```
+
+![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/style4.gif)
+
+```js
+const crimsonProgressBar = require("crimson-progressbar");
+crimsonProgressBar.renderProgressBar(currentValue, totalValue, "cyan", "cyan", "⍜", "⍛", false);
+```
+
+![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/style5.gif)
+
+```js
+const crimsonProgressBar = require("crimson-progressbar");
+crimsonProgressBar.renderProgressBar(currentValue, totalValue, "green", "red", "▓", "░", false);
+```
+
+![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/style6.gif)
+
+```js
+const crimsonProgressBar = require("crimson-progressbar");
+crimsonProgressBar.renderProgressBar(currentValue, totalValue, "green", "red", "■", "□", false);
+```
+
+![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/style7.gif)
+
+```js
+const crimsonProgressBar = require("crimson-progressbar");
+crimsonProgressBar.renderProgressBar(currentValue, totalValue, "green", "red", "◉", "◎", false);
+```
+
+![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/style8.gif)
+
+```js
+const crimsonProgressBar = require("crimson-progressbar");
+crimsonProgressBar.renderProgressBar(currentValue, totalValue, "green", "red", "⬥", "⬦", false);
+```
+
+![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/style9.gif)

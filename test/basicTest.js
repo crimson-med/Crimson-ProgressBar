@@ -1,5 +1,5 @@
 const crimsonProgressBar = require("./../app.js");
-describe('sample tests:', function() {
+describe('Styling test:', function() {
   it("Using setTimeout to simulate asynchronous code!",function(done){
     this.timeout(10000);
       loop().then(resolve => {
@@ -21,6 +21,6 @@ function delay(){
 
 async function delayedLog(currentValue, totalValue){
     await delay();
-    await crimsonProgressBar.renderProgressBar(currentValue, totalValue, "magenta", "cyan", "|", "|");
+    await crimsonProgressBar.renderProgressBar(currentValue, totalValue, "green", "red", "⬥", "⬦", false);
     return true;
 }

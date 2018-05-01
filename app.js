@@ -27,7 +27,7 @@ function castColor(color){
 };
 
 module.exports = {
-  renderProgressBar: async function (currentValue, totalValue, progressColor = "green", backgroundColor = "yellow", progressSymbol = "=", backgroundSymbol = "-"){
+  renderProgressBar: async function (currentValue, totalValue, progressColor = "green", backgroundColor = "yellow", progressSymbol = "=", backgroundSymbol = "-", renderContainer){
     let foreProgress = castColor(progressColor);
     let backProgress = castColor(backgroundColor);
 
@@ -43,7 +43,12 @@ module.exports = {
         progressLast = progressLast + backgroundSymbol;
       }
     }
-    progress = " [" + foreProgress(progressFirst) + backProgress(progressLast)+"]";
+    if (renderContainer === true){
+      progress = "[" + foreProgress(progressFirst) + backProgress(progressLast)+"]";
+    }else{
+      progress = foreProgress(progressFirst) + backProgress(progressLast);
+    }
+
     process.stdout.write(progress + "  "+(currentValue)+"/"+totalValue);
     return progress;
   }
