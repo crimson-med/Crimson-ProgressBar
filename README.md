@@ -16,6 +16,7 @@ A simple node stylish progress bar for the console
  - backgroundColor
  - progressSymbol (one char max)
  - backgroundSymbol (one char max)
+ - renderContainer (show [] around progress bar = bool)
 
 # Colors Available
 

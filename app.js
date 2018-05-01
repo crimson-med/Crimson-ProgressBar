@@ -48,7 +48,6 @@ module.exports = {
     }else{
       progress = foreProgress(progressFirst) + backProgress(progressLast);
     }
-
     process.stdout.write(progress + "  "+(currentValue)+"/"+totalValue);
     return progress;
   }
