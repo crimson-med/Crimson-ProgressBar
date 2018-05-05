@@ -1,10 +1,10 @@
-# Crimson-ProgressBar
+# Crimson ProgressBar
 
-A simple node stylish progress bar for the console
+A simple fully customizable responsive stylish progress bar.
 
 # Example
 
-![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/progress.gif)
+![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/responsive.gif)
 
 # Function Help
 
@@ -17,6 +17,7 @@ A simple node stylish progress bar for the console
  - progressSymbol (one char max)
  - backgroundSymbol (one char max)
  - renderContainer (show [] around progress bar = bool)
+ - progressSize (string see below)
 
 # Colors Available
 
@@ -31,6 +32,17 @@ A simple node stylish progress bar for the console
  - gray
  - grey
 
+# Progess Bar Size
+
+Here are the sizes you can pass to the `progressSize` they will all be responsive
+
+ - "xsmall"
+ - "small"
+ - "medium"
+ - "large"
+ - "xlarge"
+
+
 # Code Example
 
 to render one line simplys do the following:
@@ -44,7 +56,7 @@ crimsonProgressBar.renderProgressBar(50, 100);
 
 ```js
 const crimsonProgressBar = require("crimson-progressbar");
-crimsonProgressBar.renderProgressBar(50, 100, "magenta", "cyan", "|", "|");
+crimsonProgressBar.renderProgressBar(50, 100, "magenta", "cyan", "|", "|", false, "large");
 ```
 
 ![Example of Progress Bar](https://raw.githubusercontent.com/crimson-med/Crimson-ProgressBar/master/res/progress_style.gif)
