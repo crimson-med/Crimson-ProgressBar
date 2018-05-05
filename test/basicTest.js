@@ -21,6 +21,6 @@ function delay(){
 
 async function delayedLog(currentValue, totalValue){
     await delay();
-    await crimsonProgressBar.renderProgressBar(currentValue, totalValue, "green", "red", "⬥", "⬦", false);
+    await crimsonProgressBar.renderProgressBar(currentValue, totalValue, "green", "red", "|", "=", false, "large");
     return true;
 }
