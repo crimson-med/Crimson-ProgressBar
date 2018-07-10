@@ -1,4 +1,5 @@
 const colors = require("colors/safe");
+const readline = require("readline");
 
 function castColor(color){
   let toCast = colors.cyan;
@@ -53,8 +54,8 @@ module.exports = {
       lengthBuffer = lengthBuffer + 2;
     }
     let lengthProgress = castSize(progressSize, lengthBuffer);
-    process.stdout.clearLine();  // clear current text
-    process.stdout.cursorTo(0);  // move cursor to beginning of line
+    readline.clearLine(process.stdout, 0); // clear current text
+    readline.cursorTo(process.stdout, 0); // move cursor to beginning of line
     const percent = ((currentValue)/totalValue*lengthProgress).toFixed(2) ;
     let progressFirst = "";
     let progressLast = "";
